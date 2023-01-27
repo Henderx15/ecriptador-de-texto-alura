@@ -1,6 +1,6 @@
 body{
     
-    width: 1440px;
+    width: auto;
     height: auto;
     background: #0A3871;
 }
@@ -11,6 +11,7 @@ header {
     padding: 5px 0;
 }
 .caja{
+    margin: auto;
     position: relative;
     width: 1440px;
     height: 1024px;
