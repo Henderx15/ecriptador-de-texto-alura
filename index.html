@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Alura Challenge</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <h1>Encriptador de Texto Alura</h1>
+            </div>
+        </header>
+
+        <main class="caja">
+            
+            <img src="imagen/Logo.png" class="logo">
+            <textarea id="input-centro" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div class="mensajeCentro">
+                <img src="exclamation-circle-fill.svg">
+                <p class="mensaje">Solo letras minusculas y sin acentos</p>
+            </div>
+            
+            <div class="panel-botones">    
+                <button id="boton1" onclick="botonEncriptar()">encriptar</button>
+                <button id="boton2" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+
+            <div class="panel-derecho">
+                <img src="imagen/Muñeco.png" class="imagen">
+                <p class="mensaje-derecho">Ningun mensaje fue encontrado</p>
+                <textarea id="input-derecho" cols="20" rows="10" placeholder="Ingrese el texto que desees encriptar o desencriptar." readonly></textarea>
+                <button id="boton3" onclick="botonCopiar()">copiar</button>
+            </div>
+
+        </main>
+
+    </body>
+
+    <footer>
+        <p class="pies">&copy Copyright Henderson Castillo - 2022</p>
+         
+    </footer>
+</html>
